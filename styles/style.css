@@ -42,7 +42,6 @@
   z-index: 1;
   background: url(../images/cover.jpg) no-repeat center;
   background-size: cover;
-  aspect-ratio: 2.9 / 2;
 }
 
 .overlay {
@@ -56,7 +55,7 @@
   position: relative;
   z-index: 2;
   display: grid;
-  margin-top: 165px;
+  padding-top: 165px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -84,6 +83,7 @@
 .cover__description {
   display: flex;
   margin: 107px 50px 50px;
+  padding-bottom: 50px;
 }
 
 .cover__description-text {
@@ -131,11 +131,6 @@
   list-style-type: none;
 }
 
-.lots__card-list-item {
-  width: 334px;
-  min-height: 596px;
-}
-
 .card-link {
   height: 100%;
   text-decoration: none;
@@ -144,20 +139,21 @@
 .card {
   position: relative;
   z-index: 1;
-  display: flex;
-  flex-direction: column;
   height: 100%;
   color: #fff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 48px 40px;
 }
 
 .card_type_default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 48px 40px;
+  box-sizing: border-box;
+  width: 254px;
+  min-height: 500px;
 }
 
 .card_type_film {
