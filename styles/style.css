@@ -140,11 +140,11 @@
   position: relative;
   z-index: 1;
   height: 100%;
+  padding: 48px 40px;
   color: #fff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 48px 40px;
 }
 
 .card_type_default {
